@@ -1,0 +1,80 @@
+/* @media only screen and (max-width: 1279px){
+    .text-img-row{
+        padding: 72px 30px;
+        display: flex;
+    }
+
+} */
+
+@media only screen and (max-width: 979px){
+    .header-info h1{
+        font-size: 32px;
+        font-weight: 900;
+        margin: 0px 20px;
+    }
+    .header-info h2, h3{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 20px;
+    
+    }
+    .text-img-row{
+        display: block;
+       padding: 72px 11%;
+       flex-wrap: wrap;
+    }
+    .text-sec{
+      padding-top: 0px;
+    }
+    .text-sec h1{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .text-sec p{
+        text-align: center;
+        font-size: 1.125rem;
+
+    }
+    .faq-section h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .faq-section ul li h3{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 597px){
+    .header-info h3{
+        padding: 0px 20px;
+    }
+    .email-box input{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 16px 12px 16px;
+    }
+    .email-box button{
+        margin-top: 10px;
+        padding: 13px 30px;
+    }
+    .link-container{
+        display: block;
+        text-align: center;
+    }
+    .link-container .col{
+        text-align: left;
+        width: 50%;
+    }
+    .faq-section p{
+        padding: 0px 15px;
+    }
+
+}
+@media only screen and (max-width: 367px){
+    .navbar{
+        display: block;
+    }
+}
